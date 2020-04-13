@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitButton component Snapshot 1`] = `
+.emotion-0 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  padding: 1rem 2rem;
+  -webkit-transition: background-color .1s;
+  transition: background-color .1s;
+  width: 100%;
+  background-color: #66c300;
+  color: #ffffff;
+}
+
+.emotion-0:focus {
+  outline: none;
+}
+
+.emotion-0:disabled {
+  pointer-events: none;
+  background-color: #757575;
+}
+
+.emotion-0:hover {
+  background-color: #1ba307;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  data-test="SubmitButtonView"
+  disabled={true}
+  type="submit"
+/>
+`;

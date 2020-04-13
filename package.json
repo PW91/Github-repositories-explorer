@@ -1,0 +1,106 @@
+{
+  "name": "github-repositories-explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ./src && stylelint **/*.shards.js",
+    "test": "NODE_ENV=test jest --no-cache --watch",
+    "test-ci": "jest --coverage",
+    "cm": "git-cz",
+    "icofont": "node ./scripts/webfonts-generator.js"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/jest-config/setupTest.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint",
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "core-js": "^3.1.4",
+    "dotenv": "^8.0.0",
+    "emotion-normalize": "^10.1.0",
+    "emotion-theming": "^10.0.14",
+    "formik": "^1.5.8",
+    "i18next": "^17.0.6",
+    "i18next-xhr-backend": "^3.0.0",
+    "ramda": "^0.27.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-i18next": "^10.11.4",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.0.1",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "url": "^0.11.0",
+    "webfonts-generator": "^0.4.0",
+    "yup": "^0.28.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-inline-react-svg": "^1.1.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "commitizen": "^4.0.3",
+    "copy-webpack-plugin": "^5.0.3",
+    "cz-conventional-changelog": "^3.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-config-standard-react": "^8.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "fetch-mock": "^9.3.1",
+    "file-loader": "^4.1.0",
+    "flux-standard-action": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.0.1",
+    "jest": "^25.3.0",
+    "jest-emotion": "^10.0.32",
+    "jest-enzyme": "^7.1.2",
+    "json-loader": "^0.5.7",
+    "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.4",
+    "regenerator-runtime": "^0.13.5",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.8.0",
+    "validate-commit-msg": "^2.14.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

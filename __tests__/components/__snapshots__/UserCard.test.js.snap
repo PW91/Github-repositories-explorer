@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard component Snapshot 1`] = `
+.emotion-10 {
+  margin-bottom: 1rem;
+}
+
+.emotion-10 .e6m5mtg0 {
+  margin: .5rem 0 .5rem 2rem;
+}
+
+.emotion-8 {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: .2rem;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
+  -webkit-transition: background-color .1s;
+  transition: background-color .1s;
+}
+
+.emotion-8:hover {
+  background-color: #f5f5f5;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 {
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.emotion-2 {
+  color: #002442;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.emotion-6 {
+  font-family: 'icofont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #002442;
+  font-size: 1.8rem;
+  -webkit-transition: -webkit-transform .1s;
+  -webkit-transition: transform .1s;
+  transition: transform .1s;
+}
+
+.emotion-6:before {
+  content: "\\f101";
+}
+
+<div
+  className="emotion-10 emotion-11"
+  data-test="UserCardView"
+>
+  <div
+    className="emotion-8 emotion-9"
+  >
+    <div
+      className="emotion-4 emotion-5"
+    >
+      <img
+        alt="avatar"
+        className="emotion-0 emotion-1"
+      />
+      <h1
+        className="emotion-2 emotion-3"
+      />
+    </div>
+    <span
+      className="emotion-6 emotion-7"
+    />
+  </div>
+</div>
+`;

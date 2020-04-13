@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoCard component Snapshot 1`] = `
+.emotion-18 {
+  padding: .5rem 2rem;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: .5rem 0 .5rem 2rem;
+  border-radius: .2rem;
+}
+
+.emotion-10 {
+  width: 85%;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 {
+  color: #002442;
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.emotion-4 {
+  display: inherit;
+}
+
+.emotion-2 {
+  font-family: 'icofont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.8rem;
+  margin-left: .5rem;
+}
+
+.emotion-2:before {
+  content: "\\f103";
+}
+
+.emotion-8 {
+  color: #002442;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 15%;
+}
+
+.emotion-16 .emotion-13 {
+  margin-top: .5rem;
+}
+
+.emotion-12 {
+  color: #002442;
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.emotion-14 {
+  font-family: 'icofont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.8rem;
+  margin-left: .5rem;
+}
+
+.emotion-14:before {
+  content: "\\f104";
+}
+
+<div
+  className="emotion-18 emotion-19"
+  data-test="RepoCardView"
+>
+  <div
+    className="emotion-10 emotion-11"
+  >
+    <div
+      className="emotion-6 emotion-7"
+    >
+      <h3
+        className="emotion-0 emotion-1"
+      />
+      <a
+        className="emotion-4 emotion-5"
+        target="_blank"
+      >
+        <span
+          className="emotion-2 emotion-3"
+        />
+      </a>
+    </div>
+    <p
+      className="emotion-8 emotion-9"
+    />
+  </div>
+  <div
+    className="emotion-16 emotion-17"
+  >
+    <h5
+      className="emotion-12 emotion-13"
+    />
+    <span
+      className="emotion-14 emotion-15"
+    />
+  </div>
+</div>
+`;

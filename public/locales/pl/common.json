@@ -1,0 +1,28 @@
+{
+  "buttons": {
+    "search": "Szukaj"
+  },
+  "header": {
+    "title": "Github repositories explorer"
+  },
+  "footer": {
+    "author": "Created by Przemysław Wieteska"
+  },
+  "form": {
+    "placeholders": {
+      "username": "Wprowadź nazwę użytkownika"
+    },
+    "labels": {
+      "username": "Nazwa użytkownika"
+    }
+  },
+  "errors": {
+    "emptyResults": "Brak wyników wyszukiwania",
+    "emptyRepos": "Brak repozytoriów",
+    "validations": {
+      "requiredField": "Pole nie może być puste",
+      "minThreeLetters": "Minimum trzy znaki"
+    }
+  },
+  "resultsFor": "Wyniki wyszukiwania dla frazy:"
+}

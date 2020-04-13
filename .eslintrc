@@ -1,0 +1,56 @@
+{
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "camelcase": 0,
+    "comma-dangle": 0,
+    "operator-linebreak": 0,
+    "prefer-promise-reject-errors": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true
+      }
+    ],
+    "no-console": 2,
+    "no-multiple-empty-lines": 2,
+    "padded-blocks": 0,
+    "jsx-quotes": 2,
+    "indent": 2,
+    "semi": 2,
+    "curly": 2,
+    "eqeqeq": 2,
+    "space-before-function-paren": 2,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-indent-props": 2,
+    "react/jsx-no-bind": 2,
+    "react/jsx-tag-spacing": [
+      "error",
+      {
+        "beforeSelfClosing": "always"
+      }
+    ],
+    "react/jsx-key": 2,
+    "react/sort-comp": 2
+  },
+  "globals": {
+    "NODE_ENV": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  }
+}

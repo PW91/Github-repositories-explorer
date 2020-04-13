@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults component Snapshot 1`] = `
+<div
+  className="css-sdy4qm-SearchResultsContainer emotion-0"
+  data-test="SearchResultsView"
+/>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoResults component Snapshot 1`] = `
+.emotion-2 {
+  background-color: #e77f7f;
+  border: 1px solid #ce0000;
+  padding: .5rem 2rem;
+  border-radius: .2rem;
+}
+
+.emotion-2 .emotion-1 {
+  color: #ffffff;
+}
+
+.emotion-0 {
+  color: #002442;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+<div
+  className="emotion-2 emotion-3"
+  data-test="NoResultsView"
+>
+  <p
+    className="emotion-0 emotion-1"
+  />
+</div>
+`;
